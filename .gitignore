@@ -48,4 +48,5 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-/template_files/
+# Quarto bloat
+template_files/
