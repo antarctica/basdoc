@@ -1,3 +1,7 @@
+---
+---
+---
+
 # Quarto BAS Theme
 
 This is a template repository using `Quarto` `reveal.js`:
@@ -18,9 +22,22 @@ This will install the extension and create an example qmd file that you can use 
 
 You can choose different background images for title and content slides directly from the [presentation toolkit](https://nercacuk.sharepoint.com/sites/BASDigitalwmod-Communications/sitePages/PowerPointPresentationsToolkit.aspx).
 
-For the title slide, you will need to replace the link in `data-background-image:` in \_extensions/basdoc/\_extension.yml.
+To change the \*title slide\*\* image, in \`\_extensions/basdoc/\_extension.yml\` replace `data-background-image:`.
 
-For content slides, you will need to replace the link in `background-image:` in \_extensions/basdoc/custom.scss
+``` yaml
+title-slide-attributes: 
+  data-background-image: https://nercacuk.sharepoint.com/sites/basdigitalwmod-communications/creative%20services%20assets/ppt_title_halley.jpg
+```
+
+For \*content slides\*\*, in `_extensions/basdoc/custom.scss` replace `background-image:`
+
+``` sass
+/*-- scss:rules --*/
+.slide-background-content{
+  background-image: url("https://nercacuk.sharepoint.com/sites/basdigitalwmod-communications/creative%20services%20assets/ppt_page_glider01.jpg");
+  background-size: 100% 100%;
+}
+```
 
 ![](images/content-slide.png)
 

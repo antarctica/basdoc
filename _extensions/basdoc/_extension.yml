@@ -8,4 +8,4 @@ contributes:
       theme: custom.scss
       css: https://cdn.web.bas.ac.uk/bas-style-kit/0.6.1/css/bas-style-kit.min.css
       title-slide-attributes: 
-        data-background-image: https://nercacuk.sharepoint.com/sites/basdigitalwmod-communications/creative%20services%20assets/ppt_title_halley.jpg?
+        data-background-image: https://nercacuk.sharepoint.com/sites/basdigitalwmod-communications/creative%20services%20assets/ppt_title_halley.jpg
