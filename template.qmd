@@ -1,5 +1,6 @@
 ---
-title: Untitled
+title: Minimal Quarto RevealJS Theme
+subtitle: Mimicking Presentation Hub Guidance
 format:
   basdoc-revealjs: default
 author: Thomas Zwagerman
@@ -8,14 +9,13 @@ date: last-modified
 ---
 
 ## Background images
-You can choose different background images for title and content slides directly from
-the [presentation toolkit](https://nercacuk.sharepoint.com/sites/BASDigitalwmod-Communications/sitePages/PowerPointPresentationsToolkit.aspx).
 
-For the title slide, you will need to replace the link in `data-background-image:` in _extensions/basdoc/_extension.yml.
+You can choose different background images for title and content slides directly from the [presentation toolkit](https://nercacuk.sharepoint.com/sites/BASDigitalwmod-Communications/sitePages/PowerPointPresentationsToolkit.aspx).
 
-For content slides, you will need to replace the link in `background-image:` in _extensions/basdoc/custom.scss
+For the title slide, you will need to replace the link in `data-background-image:` in \_extensions/basdoc/\_extension.yml.
+
+For content slides, you will need to replace the link in `background-image:` in \_extensions/basdoc/custom.scss
 
 ## General RevealJS Information
 
 You can learn more about controlling the appearance of RevealJS output here: <https://quarto.org/docs/presentations/revealjs/>
-
