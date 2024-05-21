@@ -39,6 +39,13 @@ For **content slides**, in `_extensions/basdoc/custom.scss` replace `background-
 
 ![](images/content-slide.png)
 
+If you want to override the global content slide background, you can do so by specifying it in the slide title:
+
+```md
+## Content slides {background-image=https://nercacuk.sharepoint.com/sites/basdigitalwmod-communications/creative%20services%20assets/ppt_page_adelie01.jpg}
+text
+```
+
 ## Acknowledgements
 
 Template created using [Quarto Creating Extensions \> Custom Formats](https://quarto.org/docs/extensions/formats.html#quick-start).

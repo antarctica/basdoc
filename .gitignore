@@ -50,3 +50,6 @@ rsconnect/
 
 # Quarto bloat
 template_files/
+
+# Not required for extension
+*.Rproj
