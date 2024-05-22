@@ -9,12 +9,18 @@ This is a minimal template intended to mimic the [Presentation Hub's PowerPoint 
 It sets background images for the title and content slides, and refers to the BAS Style Kit CSS file, as per the [BAS Style Kit's Getting Started page](https://style-kit.web.bas.ac.uk/start/introduction/).
 
 ## Installing
-
+### New Directory
 ``` bash
 quarto use template antarctica/basdoc
 ```
+This will install the extension in a new directory and create an example qmd file that you can use as a starting place for your presentation.
 
-This will install the extension and create an example qmd file that you can use as a starting place for your presentation.
+### Existing Directory
+To add the extension to an existing directory, you can use:
+``` bash
+quarto add antarctica/basdoc
+```
+This will add the extension to an existing directory, but will not provide you with an example qmd file.
 
 ## Background images
 
