@@ -13,14 +13,14 @@ It sets background images for the title and content slides, and refers to the BA
 ``` bash
 quarto use template antarctica/basdoc
 ```
-This will install the extension in a new directory and create an template.qmd (automatically named after your new directory) file that you can use as a starting place for your presentation.
+This will install the extension in a new directory and create a `template.qmd` (automatically named after your new directory) file that you can use as a starting place for your presentation.
 
 ### Existing Directory
 To add the extension to an existing directory, you can use:
 ``` bash
 quarto add antarctica/basdoc
 ```
-This will add the extension to an existing directory, but will not provide you with an template.qmd file. Note that you may need to update the YAML headers in your existing qmd files to refer to `basdoc-revealjs`, matching template.qmd:
+This will add the extension to an existing directory, but will not provide you with a `template.qmd` file. Note that you will need to update the YAML headers in your existing qmd files (or `_quarto.yml`) to refer to `basdoc-revealjs`, matching template.qmd:
 
 ```yaml
 format:
