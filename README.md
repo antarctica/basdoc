@@ -57,6 +57,23 @@ If you want to override the global content slide background, you can do so by sp
 text
 ```
 
+## Using this as a GitHub repository template
+
+This repository can also be used as a GitHub repository template. Click `Use this template` above to make a copy of it to your own account.
+
+### Enabling GitHub actions and GitHub Pages
+
+One benefit is using GitHub actions to automatically build the presentation as a GitHub pages website.
+
+In your repository settings, enable GitHub Actions (if they aren't already) and Pages.
+
+Under the **Actions** page in your repo's settings, under **Workflow permissions** enable "Read and Write Permissions".
+
+Once the actions have run once and created the `gh-pages` branch, you can select it as your pages source under the **Pages** page.
+
+Note that since your main presentation file might take one of a number of names (e.g. `template.qmd`, `index.qmd` etc.) in the action to build the pages we run `quarto render *.qmd`. If you have more than one `.qmd` file, you may want to edit your copy of the workflow definition (`.github/workflows/pages.yml`) to reflect this.
+
+
 ## Acknowledgements
 
 Template created using [Quarto Creating Extensions \> Custom Formats](https://quarto.org/docs/extensions/formats.html#quick-start).
