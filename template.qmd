@@ -3,8 +3,12 @@ title: Minimal Quarto RevealJS Theme
 subtitle: Mimicking Presentation Hub Guidance
 format:
   basdoc-revealjs: default
-author: Thomas Zwagerman
-institute: British Antarctic Survey
+author: 
+  - Thomas Zwagerman
+  - David Wilby
+institute: 
+  - British Antarctic Survey
+  - British Antarctic Survey
 date: last-modified
 ---
 
@@ -16,9 +20,8 @@ For the title slide, you will need to replace the link in `data-background-image
 
 For content slides, you will need to replace the link in `background-image:` in \_extensions/basdoc/custom.scss
 
-## General RevealJS Information
-
-You can learn more about controlling the appearance of RevealJS output here: <https://quarto.org/docs/presentations/revealjs/>
-
 ## Content slides {background-image=https://nercacuk.sharepoint.com/sites/basdigitalwmod-communications/creative%20services%20assets/ppt_page_adelie01.jpg}
 Different background image for this slide only
+
+## General RevealJS Information
+You can learn more about controlling the appearance of RevealJS output here: <https://quarto.org/docs/presentations/revealjs/>
