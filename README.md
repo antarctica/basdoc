@@ -57,6 +57,8 @@ If you want to override the global content slide background, you can do so by sp
 text
 ```
 
+Note that images will only be displayed, if you have access to the [BAS Digital Workspace](https://nercacuk.sharepoint.com/sites/basdigitalwmod-whats-new).
+
 ## Using this as a GitHub repository template
 
 This repository can also be used as a GitHub repository template. Click `Use this template` above to make a copy of it to your own account.
@@ -73,7 +75,6 @@ Once the actions have run once and created the `gh-pages` branch, you can select
 
 Note that while your main presentation file might take one of a number of names (e.g. `template.qmd`, `your-directory-name.qmd` etc.), Github Pages will always look for `index.html` (the rendered version of `index.qmd`) for the landing page. You will need to rename your main presentation file to `index.qmd`, for your presentation to render on `your-organisation.github.io/your-repository`. For example, `template.qmd` will render on `your-organisation.github.io/your-repository/template.`
 
-
 ## Acknowledgements
 
 Template created using [Quarto Creating Extensions \> Custom Formats](https://quarto.org/docs/extensions/formats.html#quick-start).
@@ -81,5 +82,7 @@ Template created using [Quarto Creating Extensions \> Custom Formats](https://qu
 CSS Style sheets and guidance from [BAS Style Kit](https://style-kit.web.bas.ac.uk/).
 
 Background images and guidance from [BAS Presentation Hub](https://nercacuk.sharepoint.com/sites/BASDigitalwmod-Communications/sitePages/presentation-hub.aspx).
+
+Github Actions templating was adapted from David Wilby's [quarto-presentation-template](https://github.com/davidwilby/quarto-presentation-template).
 
 This repository aims to provide a minimum template. Further customisation is up to the user, see [General Guidance on branding and logos](https://nercacuk.sharepoint.com/sites/BASDigitalwmod-Communications/sitePages/BrandingandLogos.aspx).
