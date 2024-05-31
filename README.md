@@ -71,7 +71,7 @@ Under the **Actions** page in your repo's settings, under **Workflow permissions
 
 Once the actions have run once and created the `gh-pages` branch, you can select it as your pages source under the **Pages** page.
 
-Note that since your main presentation file might take one of a number of names (e.g. `template.qmd`, `index.qmd` etc.) in the action to build the pages we run `quarto render *.qmd`. If you have more than one `.qmd` file, you may want to edit your copy of the workflow definition (`.github/workflows/pages.yml`) to reflect this.
+Note that while your main presentation file might take one of a number of names (e.g. `template.qmd`, `your-directory-name.qmd` etc.), Github Pages will always look for `index.html` (the rendered version of `index.qmd`) for the landing page. You will need to rename your main presentation file to `index.qmd`, for your presentation to render on `your-organisation.github.io/your-repository`. For example, `template.qmd` will render on `your-organisation.github.io/your-repository/template.`
 
 
 ## Acknowledgements
