@@ -75,6 +75,15 @@ Once the actions have run once and created the `gh-pages` branch, you can select
 
 Note that while your main presentation file might take one of a number of names (e.g. `template.qmd`, `your-directory-name.qmd` etc.), Github Pages will always look for `index.html` (the rendered version of `index.qmd`) for the landing page. You will need to rename your main presentation file to `index.qmd`, for your presentation to render on `your-organisation.github.io/your-repository`. For example, `template.qmd` will render on `your-organisation.github.io/your-repository/template.`
 
+## Contributing
+### Without write access
+Corrections, suggestions and general improvements are welcome as [issues](https://github.com/antarctica/basdoc/issues).
+
+You can also suggest changes by forking this repository, and opening a pull request. Please target your pull requests to the main branch.
+
+### With write access
+You can push directly to main for small fixes. Please use PRs to main for discussing larger updates.
+
 ## Acknowledgements
 
 Template created using [Quarto Creating Extensions \> Custom Formats](https://quarto.org/docs/extensions/formats.html#quick-start).
